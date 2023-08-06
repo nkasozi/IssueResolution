@@ -1,0 +1,36 @@
+//unit tests
+-single file of code
+ class of methods
+ methods/function
+ -> mock out all dependencies
+ really really fast
+ really really specific
+
+//integrations tests
+test a single component as whole. pass in real dependencies
+the dependencies are test versions
+slow
+not specific
+
+//UI tests
+Check functionality on the frontend
+run the frontend in cypress
+
+//E2E tests
+run all components together
+run the UI
+run the API
+run the DB
+go to the UI and run test
+super slow
+super not specific
+high rate of false negatives
+very hard to automate. most times they are manual. Demos. QA team, Test Team
+
+//feature flags
+
+
+//blackbox testing
+//whitebox testing
+
+methods/ classes/ modules/ components
