@@ -1,6 +1,6 @@
 package db_models
 
 type Couple struct {
-	ID   string
-	Name string
+	ID   string `valid:"required"`
+	Name string `valid:"required"`
 }

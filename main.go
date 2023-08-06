@@ -9,10 +9,10 @@ import (
 
 func main() {
 	//initialize the DB
-	db := db.InitInMemoryDb()
+	database := db.InitInMemoryDb()
 
 	//initialize the logic which depends on the DB
-	coreLogic := logic.Logic{Db: db}
+	coreLogic := logic.Logic{Db: database}
 
 	//initialize the endpoints which depends on the logic
 	endpoints := api.ApiEndpoints{CoreLogic: &coreLogic}

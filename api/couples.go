@@ -14,5 +14,4 @@ func (handler ApiEndpoints) CreateCouple(request CreateCoupleRequest) (err error
 	return nil, &CreateCoupleResponse{
 		ID: coupleId,
 	}
-	return
 }
